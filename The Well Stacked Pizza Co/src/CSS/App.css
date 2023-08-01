@@ -30,6 +30,11 @@
     font-style: normal
 }
 
+@font-face {
+    font-family: 'Hot Pizza';
+    src: url("../fonts/Hot\ Pizza.otf");
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -64,6 +69,7 @@ h5 {
 }
 
 h1 {
+    font-family: 'Hot Pizza';
     font-size: 48px
 }
 
