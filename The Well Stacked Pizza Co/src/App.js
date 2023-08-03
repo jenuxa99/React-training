@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-import './CSS/App.css';
-import Header from './components/Header.jsx';
-import Categories from './components/Categories';
-import Sort from './components/Sort.jsx';
-import PizzaBlock from './components/Pizza-block';
+import React from "react";
+import "./CSS/App.css";
+import Header from "./components/Header.jsx";
+import Home from "./pages/Home";
+import NotFound from "./components/NotFoundBlock";
 
 function App() {
   return (
@@ -11,35 +10,10 @@ function App() {
       <Header />
       <div className="content">
         <div className="container">
-          <div className="content__top">
-            <Categories />
-            <Sort />
-          </div>
-          <h2 className="content__title">Все пиццы</h2>
-          <div className="content__items">
-            <PizzaBlock title="Пицца с сыром" price="399" />
-            <PizzaBlock title="Пицца с пепперони" price="499" />
-            <PizzaBlock title="Пицца с колбасой" price="499" />
-            <PizzaBlock title="Грибная пицца" price="399" />
-            <PizzaBlock title="Пицца с двойным пепперони" price="599" />
-            <PizzaBlock title="Пицца с креветками" price="699" />
-            <PizzaBlock title="Морская пицца" price="799" />
-            <PizzaBlock title="Вегетарианская пицца" price="499" />
-            <PizzaBlock title="Пицца с множеством видов мяса" price="799" />
-            <PizzaBlock title="Пицца с анчоусами" price="499" />
-            <PizzaBlock title="Барбекю пицца" price="599" />
-            <PizzaBlock title="Пицца с беконом" price="499" />
-            <PizzaBlock title="Пицца с ветчиной" price="599" />
-            <PizzaBlock title="Пицца с ананасами" price="499" />
-            <PizzaBlock title="Пицца Суприм" price="899" />
-            <PizzaBlock title="Пицца с фрикадельками" price="599" />
-            <PizzaBlock title="Пицца с курицей" price="499" />
-            <PizzaBlock title="Пицца с крылышками буффало" price="599" />
-            <PizzaBlock title="Сырный хлеб" price="99" />
-            <PizzaBlock title="Чесночный хлеб" price="99" />
-          </div>
+          <Home />
         </div>
       </div>
+      <NotFound />
     </div>
   );
 }
