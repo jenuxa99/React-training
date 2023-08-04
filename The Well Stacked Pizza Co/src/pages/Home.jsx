@@ -15,9 +15,11 @@ const Home = () => {
         setItems(arr);
         setIsLoading(false);
       });
+    window.scrollTo(0, 0);
   }, []);
+
   return (
-    <>
+    <div class="container">
       <div className="content__top">
         <Categories />
         <Sort />
@@ -30,7 +32,7 @@ const Home = () => {
               <PizzaBlock key={pizzaObj.id} {...pizzaObj} />
             ))}
       </div>
-    </>
+    </div>
   );
 };
 
