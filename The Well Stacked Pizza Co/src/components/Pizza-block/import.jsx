@@ -5,6 +5,11 @@ function PizzaBlock({ title, price, imageUrl, sizes, types }) {
 
   const [activeDoughType, setActiveDoughType] = useState(0);
   const [activeSize, setActiveSize] = useState(0);
+  const [pizzaState, setPizzaState] = useState(0);
+
+  function pizzaCounter() {
+    setPizzaState(pizzaState + 1);
+  };
 
   return (
     <div className="pizza-wrapper">
@@ -38,7 +43,10 @@ function PizzaBlock({ title, price, imageUrl, sizes, types }) {
         </div>
         <div className="pizza-block__bottom">
           <div className="pizza-block__price">от {price} ₽</div>
-          <button className="button button--outline button--add">
+          <button
+            onClick={pizzaCounter}
+            className="button button--outline button--add"
+          >
             <svg
               width="12"
               height="12"
@@ -52,7 +60,7 @@ function PizzaBlock({ title, price, imageUrl, sizes, types }) {
               />
             </svg>
             <span>Добавить</span>
-            <i>0</i>
+            <i>{pizzaState}</i>
           </button>
         </div>
       </div>

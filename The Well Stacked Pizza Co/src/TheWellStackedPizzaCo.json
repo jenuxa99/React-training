@@ -1,0 +1,729 @@
+[
+    {
+        "id": 1,
+        "name": "Cheese Pizza",
+        "translation": "Пицца с сыром",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 499,
+        "category": 1
+    },
+    {
+        "id": 2,
+        "name": "Pepperoni Pizza",
+        "translation": "Пицца с пепперони",
+        "rating": 7,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 550,
+        "category": 1
+    },
+    {
+        "id": 3,
+        "name": "Sausage Pizza",
+        "translation": "Пицца с колбасой",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 550,
+        "category": 1
+    },
+    {
+        "id": 4,
+        "name": "Mushroom Pizza",
+        "translation": "Грибная пицца",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 499,
+        "category": 1
+    },
+    {
+        "id": 5,
+        "name": "Double Pepperoni Pizza",
+        "translation": "Пицца с двойным пепперони",
+        "rating": 7,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 599,
+        "category": 1
+    },
+    {
+        "id": 6,
+        "name": "Shrimp Pizza",
+        "translation": "Пицца с креветками",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 699,
+        "category": 1
+    },
+    {
+        "id": 7,
+        "name": "Seafood Pizza",
+        "translation": "Морская пицца",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 799,
+        "category": 1
+    },
+    {
+        "id": 8,
+        "name": "Vegetarian Pizza",
+        "translation": "Вегетарианская пицца",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 499,
+        "category": 1
+    },
+    {
+        "id": 9,
+        "name": "Meat Feast Pizza",
+        " translation": "Пицца с множеством видов мяса",
+        "rating": 7,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 799,
+        "category": 1
+    },
+    {
+        "id": 10,
+        "name": "Anchovy Pizza",
+        "translation": "Пицца с анчоусами",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 599,
+        "category": 1
+    },
+    {
+        "id": 11,
+        "name": "Barbecue Pizza",
+        "translation": "Барбекю пицца",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 599,
+        "category": 1
+    },
+    {
+        "id": 12,
+        "name": "Bacon Pizza",
+        "translation": "Пицца с беконом",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 449,
+        "category": 1
+    },
+    {
+        "id": 13,
+        "name": "Ham Pizza",
+        "translation": "Пицца с ветчиной",
+        "rating": 7,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 599,
+        "category": 1
+
+
+    },
+    {
+        "id": 14,
+        "name": "Pineapple Pizza",
+        "translation": "Пицца с ананасами",
+        "rating": 6,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 499,
+        "category": 1
+    },
+    {
+        "id": 15,
+        "name": "Supreme Pizza",
+        "translation": "Пицца с различными начинками",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 899,
+        "category": 1
+    },
+    {
+        "id": 16,
+        "name": "Meatball Pizza",
+        "translation": "Пицца с фрикадельками",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 750,
+        "category": 1
+    },
+    {
+        "id": 17,
+        "name": "Chicken Pizza",
+        "translation": "Пицца с курицей",
+        "rating": 7,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 499,
+        "category": 1
+    },
+    {
+        "id": 18,
+        "name": "Buffalo Wing Pizza",
+        "translation": "Пицца с крылышками буффало",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 699,
+        "category": 1
+    },
+    {
+        "id": 19,
+        "title": "Cheese Crust Pizza",
+        "translate": "Пицца с сырным краем",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 499,
+        "category": 1
+    },
+    {
+        "id": 20,
+        "title": "Ham Pizza",
+        "translate": "Пицца с ветчиной",
+        "rating": 8,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 699,
+        "category": 1
+    },
+    {
+        "id": 21,
+        "title": "Corn Breaded Snack",
+        "imageUrl": "",
+        "rating": 4,
+        "types": [ 6, 7 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 155,
+        "category": 2,
+        "translate": "Закуска из кукурузного хлеба"
+    },
+    {
+        "id": 22,
+        "name": "Cheesebread",
+        "translation": "Сырный хлеб",
+        "rating": 7,
+        "types": [ 6, 7 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 99,
+        "category": 4
+    },
+    {
+        "id": 23,
+        "name": "Garlic Bread",
+        "translation": "Чесночный хлеб",
+        "rating": 8,
+        "types": [ 6, 7 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 99,
+        "category": 4
+    },
+    {
+        "id": 24,
+        "title": "Pißwasser",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 75,
+        "category": 7
+    },
+    {
+        "id": 25,
+        "title": "Logger Beer",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 55,
+        "category": 7
+    },
+    {
+        "id": 26,
+        "title": "Blarneys Stout",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 55,
+        "category": 7
+    },
+    {
+        "id": 27,
+        "title": "E-Cola",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 55,
+        "category": 6
+    },
+    {
+        "id": 28,
+        "title": "Sprunk",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 55,
+        "category": 6
+    },
+    {
+        "id": 29,
+        "title": "Krapea",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 89,
+        "category": 6
+    },
+    {
+        "id": 30,
+        "title": "Bullshark Testosterone",
+        "rating": 9,
+        "types": [ 0, 1 ],
+        "imageUrl": "",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 115,
+        "category": 6
+    },
+    {
+        "id": 31,
+        "title": "Soda",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 6,
+        "translate": "Газированный напиток"
+    },
+    {
+        "id": 32,
+        "title": "Coffee",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Кофе"
+    },
+    {
+        "id": 33,
+        "title": "The Bleeder",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "оригинальный",
+            "двойной"
+        ],
+        "price": 99,
+        "category": 2,
+        "translate": "Кровотечение"
+    },
+    {
+        "id": 34,
+        "title": "The Happy Burger",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "оригинальный",
+            "двойной"
+        ],
+        "price": 99,
+        "category": 2,
+        "translate": "Счастливый бургер"
+    },
+    {
+        "id": 35,
+        "title": "French Fries",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 45,
+        "category": 2,
+        "translate": "Картофель фри"
+    },
+    {
+        "id": 36,
+        "title": "Hot Dog",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Хот-дог"
+    },
+    {
+        "id": 37,
+        "title": "Club Sandwich",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Клаб-сэндвич"
+    },
+    {
+        "id": 38,
+        "title": "Hamburger",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Гамбургер"
+    },
+    {
+        "id": 39,
+        "title": "Big Burger",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Большой бургер"
+    },
+    {
+        "id": 40,
+        "title": "Chicken Meal Combo",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Комбо из куриного мяса"
+    },
+    {
+        "id": 41,
+        "title": "Waffle Chicken",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Курица вафельная"
+    },
+    {
+        "id": 42,
+        "title": "Corn Mash",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Маисовая каша"
+    },
+    {
+        "id": 43,
+        "title": "Chicken Rings",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Куриные фрикадельки"
+    },
+    {
+        "id": 44,
+        "title": "Meat Rolls",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Мясные рулеты"
+    },
+    {
+        "id": 45,
+        "title": "Breakfast",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 2,
+        "translate": "Завтрак"
+    },
+    {
+        "id": 46,
+        "title": "Pump Casing Sausage",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "price": 199,
+        "category": 3,
+        "translate": "Помповая колбаса"
+    },
+    {
+        "id": 47,
+        "title": "Stews",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [ "0.5 порции", "целая порция" ],
+        "price": 99,
+        "category": 3,
+        "translate": "Рагу"
+    },
+    {
+        "id": 48,
+        "title": "Potato Crisps",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [ "3 шт", "5 шт", "9 шт" ],
+        "price": 39,
+        "category": 3,
+        "translate": "Картопляники"
+    },
+    {
+        "id": 49,
+        "title": "Donut",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [ "S", "M", "L" ],
+        "price": 25,
+        "category": 5,
+        "translate": "Пончик"
+    },
+    {
+        "id": 50,
+        "title": "Ice Cream",
+        "imageUrl": "",
+        "rating": "4",
+        "types": [ 0, 1 ],
+        "sizes": [ "S", "M", "L" ],
+        "price": 15,
+        "category": 5,
+        "translate": "Мороженое"
+    }
+]

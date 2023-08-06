@@ -21,6 +21,7 @@ const Home = () => {
     setIsLoading(true);
     fetch(
       `https://64cb5ecd700d50e3c705c989.mockapi.io/pizzas-item/items?${category}&sortBy=${sortBy}&order=${order}`
+      // `https://64cb5ecd700d50e3c705c989.mockapi.io/pizzas-item/WorldOfCoq?${category}&sortBy=${sortBy}&order=${order}`
     )
       .then((res) => res.json())
       .then((arr) => {
@@ -31,7 +32,7 @@ const Home = () => {
   }, [categoryID, sortType]);
 
   return (
-    <div class="container">
+    <div className="container">
       <div className="content__top">
         <Categories
           value={categoryID}

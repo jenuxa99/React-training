@@ -45,3 +45,12 @@ export default App;
 // 18. Buffalo Wing Pizza / Пицца с крылышками буффало
 // 19. Cheesebread / Сырный хлеб
 // 20. Garlic Bread / Чесночный хлеб
+
+// 1. Pißwasser 
+// 2. E-Cola 
+// 3. Sprunk 
+// 4. Redwood Cigarettes 
+// 5. Krapea 
+// 6. Logger Beer 
+// 7. Blarneys Stout 
+// 8. Bullshark Testosterone 
