@@ -6,12 +6,12 @@ function Sort({ value, onChangeSort }) {
   const DESC = <div dangerouslySetInnerHTML={{ __html: 'популярности &#129045' }} />;
 
   const sortList = [
-    { name: `популярности DESC`, sortProperty: "rating" },
-    { name: "популярности", sortProperty: "-rating" },
-    { name: "цене DESC", sortProperty: "price" },
-    { name: "цене", sortProperty: "-price" },
-    { name: "алфавиту DESC", sortProperty: "title" },
-    { name: "алфавиту", sortProperty: "-title" },
+    { name: `уменьшению популярности`, sortProperty: "rating" },
+    { name: "увеличению популярности", sortProperty: "-rating" },
+    { name: "уменьшению цене", sortProperty: "price" },
+    { name: "увеличению цене", sortProperty: "-price" },
+    { name: "уменьшению алфавиту", sortProperty: "title" },
+    { name: "увеличению алфавиту", sortProperty: "-title" },
   ];
 
   const onClickSortItem = (i) => {
